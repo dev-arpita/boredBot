@@ -12,6 +12,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: Oxygen, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -21,4 +23,34 @@ button {
     background-color: red;
     border: 1px solid darkred;
     cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.8s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h4 {
+    text-shadow: 0 5px 20px #4d290f;
+    padding: 0 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 60px;
+    border-radius: 20%;
+    box-shadow: 0 0 20px #4d290f;
+}
+
+.clr-bg {
+    background: rgb(241, 242, 51);
+    background: linear-gradient(18deg, rgba(241, 242, 51, 0.8519608527004552) 20%, rgba(235, 109, 12, 1) 81%);
+    color: #4e2406;
 }
